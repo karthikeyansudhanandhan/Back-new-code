@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="PricingReview">
+    <classes>
+   		<class name="testCases_Package.APRURLLaunched"/>
+    	
+   		<!-- <class name="testCases_Package.Package_Name_Product"/> -->
+   		
+   		<!-- <class name="testCases_Package.RO_Queue"/>
+   		<class name="testCases_Package.CURRENTSERVICE"/>
+   		
+   		
+   		<class name="testCases_Package.ROQUEUE_Current"/>
+ 		<class name="testCases_Package.CURRENTOTHER"/>
+ 		
+ 		
+ 		<class name="testCases_Package.ROQUEUE_CashFee"/>
+ 		<class name="testCases_Package.CASHFEEROQUEUE"/>
+ 		
+ 		
+ 		 <class name="testCases_Package.RO_TEAMLEADER"/> -->
+ 		
+ 		<class name="testCases_Package.CS_Queue"/>
+ 		<class name="testCases_Package.CSQueue_CashFee"/>
+ 		
+ 		
+ 		<class name="testCases_Package.CSQueue_CIT"/>
+ 		<class name="testCases_Package.CASHDEVICES_CASHONLINE_CIT"/> 
+ 		
+		 <class name="testCases_Package.SendApproval_CSQueue"/>
+  		
+   		<class name="testCases_Package.Team_Leader"/>
+   		
+   		<!-- <class name="testCases_Package.CB_Team_Leader_Queue"/>
+   				
+   		<class name="testCases_Package.CS_TEAM_LEADER_QUEUE"/>
+   				
+   				
+   		<class name="testCases_Package.PricingAdminQueue_PricingReview"/>
+   		
+   		
+   		<class name="testCases_Package.GeneratePricingLetter_RO"/>
+   		
+   		
+   		<class name="testCases_Package.TBPricingLetterDownlaod"/>
+   		
+   		<class name="testCases_Package.CBpricingLetterDeliveryUpdates"/>
+   		
+   		<class name="testCases_Package.CB_APR_Complete"/> -->
+   	
+   	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

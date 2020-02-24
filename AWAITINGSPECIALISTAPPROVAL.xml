@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="AWAITINGSPECIALISTAPPROVAL">
+    <classes>
+    <class name="testCases_Package.APRURLLaunched"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALNETBANK"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALAVS"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALTI"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALCASHMGMT"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALACB"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALCPS"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALBDF"/>
+    <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALCASA"/>   
+    <!--  <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALCASA"/>
+     <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALCASHDEVICES"/>
+     <class name="testCases_Package.AWAITINGSPECIALISTAPPROVALCIT"/>        -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="PricingAdmin">
+    <classes>
+    <class name="testCases_Package.APRURLLaunched"/>
+    <class name="testCases_Package.Pricing_AdminQueue_AdminQ"/>
+    <class name="testCases_Package.Package_Name_Product"/>
+    <class name="testCases_Package.CB_ADMIN_PRICINGADMIN"/>
+    <class name="testCases_Package.CURRENTOTHER_ADMINQUEUE"/>
+    <class name="testCases_Package.CS_ADMIN_PRICINGADMIN"/>
+    <class name="testCases_Package.CURRENTSERVICE_ADMINQUEUE"/>
+    <class name="testCases_Package.CS_ADMIN_PRICINGADMIN"/>
+    <class name="testCases_Package.CASHFEE_ADMINQUEUE"/>
+    
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

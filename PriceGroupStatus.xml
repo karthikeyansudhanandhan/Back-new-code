@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="PricingAdmin">
+    <classes>
+    <class name="testCases_Package.APRURLLaunched"/>
+    <!-- <class name="testCases_Package.GetExcelSheetNames"/> -->
+    
+ <!-- 	 <class name="testCases_Package.PRICEGROUPSTATUSNETBANK"/>
+     <class name="testCases_Package.PRICEGROUPSTATUSAVS"/>
+      <class name="testCases_Package.PRICEGROUPSTATUSTI"/>
+      <class name="testCases_Package.PRICEGROUPSTATUSCASHMGMT"/>
+      <class name="testCases_Package.PRICEGROUPSTATUSACB"/>
+      <class name="testCases_Package.PRICEGROUPSTATUSCPS"/>
+      <class name="testCases_Package.PRICEGROUPSTATUSBDF"/>
+      <class name="testCases_Package.PRICEGROUPSTATUSCASA"/>
+      <class name="testCases_Package.PRICEGROUPSTATUSCASADEVICE"/>    
+ -->    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

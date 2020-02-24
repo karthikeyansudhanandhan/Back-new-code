@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ADMINPRCINGUPDATES">
+    <classes>
+   		 <class name="testCases_Package.APRURLLaunched"/>
+   		 <class name="testCases_Package.ADMINPRICINGNETBANKBUSINESS"/>
+   		 <class name="testCases_Package.ADMINPRICINGAVS"/>
+   		 <class name="testCases_Package.ADMINPRICINGTI"/>
+   		 <class name="testCases_Package.ADMINPRICINGCASHMGMT"/>
+   		 <class name="testCases_Package.ADMINPRICINGACB"/>
+   		 <class name="testCases_Package.ADMINPRICINGCPS"/>
+   		 <class name="testCases_Package.ADMINPRICINGBDF"/>
+   		 <class name="testCases_Package.ADMINPRICINGCASA"/>
+   		  <class name="testCases_Package.ADMINPRICINGCASHDEVICES"/>
+   		  <class name="testCases_Package.ADMINPRICINGCIT"/>
+   		 
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
